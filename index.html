@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Guess The Breed</title>
+</head>
+<body>
+    <h1 id="game_title" class="center">GUESS THE BREED: DOG EDITION</h1>
+    <div class="container center">
+        <p id="prompt">So you claim to be the greatest dog person? Well, let's put that knowledge to the test.<br>The rules are simple - type in the breed that you think the dog in the displayed image belongs to. If you guess correctly, your score will increase by a point. Otherwise it will remain unchanged. Go ahead and click the start button to begin.</p>
+        <button  id="start_btn" type="button"class="btn">START</button>
+
+        <div id="images-container" class="hide">
+            <h2 id="score_count">SCORE: 0</h2>
+            <div id="dog_image"></div>
+            <form id="submisions">
+                <input id="user_answer" type="text" placeholder="Type your answer here..." required><br>
+                <button  id="submit_btn" type="button"class="btn">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
